@@ -1,0 +1,14 @@
+.profile-div{
+    background-color: rgb(244, 204, 162);
+    padding: 20px;
+    margin: 20px;
+    color: rgb(185, 157, 28);
+}
+.form-div{
+    margin: 10px;
+
+}
+button{
+    border: 0px;
+    color:  rgb(86, 73, 14);
+}

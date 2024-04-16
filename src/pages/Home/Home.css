@@ -1,0 +1,80 @@
+.btn12{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    background: #dfd247;
+    width: 150PX;
+    height: 60px;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #905512;
+    border-radius: 5PX;
+    cursor: pointer;
+    border: none;
+}
+.btn12:hover,.btn:focus,.btn:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+}
+.div45{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    
+    
+}
+.div89{
+    display: flex;
+    margin:20px;
+    gap: 60px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    
+    
+
+}
+.heading{
+    color:chocolate ;
+}
+
+
+.card-image-container{
+    padding: 8px;
+    height: 200px;
+    width: 700px;
+   overflow: hidden;
+   border: 1px solid gray;
+   border-radius: 10px;
+}
+.card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width:720px) {
+    .div89{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.profile-logo{
+    background-color: #905512;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    
+}
+.profile-inline{
+    display: flex;
+    gap: 20px;
+    background-color: beige;
+    font-size: 20px;
+    overflow: auto;
+    align-items: center;
+    border-radius: 0px;
+    
+}
